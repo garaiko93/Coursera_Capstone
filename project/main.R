@@ -17,8 +17,8 @@ library(syuzhet)
 library(data.table)
 library(rAmCharts)
 
-Sys.setenv(SPOTIFY_CLIENT_ID = "d041a615d17c449088189f10844a03f9")
-Sys.setenv(SPOTIFY_CLIENT_SECRET = "fc3bd0aafb7b46c681cfa3c1a3dcdff4")
+Sys.setenv(SPOTIFY_CLIENT_ID = "client_id")
+Sys.setenv(SPOTIFY_CLIENT_SECRET = "client_secret")
 
 access_token <- get_spotify_access_token()
 
